@@ -55,6 +55,7 @@ header
     transition: transform 0.5s ease-in-out;
     position: relative;
 }
+
 .item:hover
 {
     box-shadow: 5px 5px 5px 0px white ;
@@ -74,7 +75,7 @@ header
     display: flex;
     opacity: 0;
     transition: opacity 1s ease-in;
-    transform: translate(-10%, -40%);
+    transform: translate(60%, 30%);
 }
 
 .item:hover .info
@@ -100,9 +101,13 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 280px;
+    margin: 300px;
     background-color: #FEFAE0;
     border-radius: 15px;
+    
 }
 
 
+/* Duvidas: Position relative
+/* Transform translate
+/* Efetuar mudança no css, para estilizar cada caixa de imagem no centro da tela, preciso fazer isso separadamente
