@@ -45,7 +45,7 @@ header
     margin-right: 15px ;
     margin-left: 15px;
     color: black;
-    text-decoration: none;
+
 }
 .itemNav:hover
 {
@@ -60,6 +60,7 @@ a
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    text-decoration: none;
 }
 .mapaGoogle
 {
